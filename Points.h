@@ -6,7 +6,6 @@
 
 #define BOT_SIZE 20 //bot size in pixels
 #define SPACING 1.5 //spacing between bots in terms of fraction of bot size
-#define SF 1 //Scaling Factor
 
 struct pt //structure to hold coordinates of points
 {
