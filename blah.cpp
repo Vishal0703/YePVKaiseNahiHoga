@@ -1,5 +1,6 @@
 #include "SwarmBot.h"
 #include "Shape.h"
+#include <string>
 
 void npush (nheap * heap, int i)
 {
@@ -66,12 +67,8 @@ nheap * nmake (vector<SwarmBot> bots, pt * fig, int n)
 
 
 
-int main (int argc, char * argv[])
+pt botdes (int BOT_ID, String sh)
 {
-	int BOT_ID = std::stoi(argv[1]);
 	vector<SwarmBot> bots = getSwarmBots();
-	std::string cmd = "./" + (std::string(argv[2])) + " " + (std::to_string(42));
-	int n = bots.size();
-	system (cmd);
-	pt * fig = getPoints ();
+	
 }
